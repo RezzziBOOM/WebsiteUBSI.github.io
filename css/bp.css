@@ -1,0 +1,41 @@
+:root{
+    --bg-color:#1f242d;
+    --main-color:#75C3EF;
+    --text-color:#fff;
+    
+    
+    
+}
+
+.display-1 .color-span {
+    color: var(--main-color);
+}
+
+
+.display-1{
+    font-family: 'Bebas Neue',sans-serif;
+
+}
+
+.jumbotron{
+    padding: 4rem 1rem;
+    
+}
+
+.terimakasih{
+    padding: 1rem;
+}
+.gambar{
+    padding: 1rem;
+}
+
+.text{
+    padding: 1rem;
+}
+
+.hubungi{
+    padding: 1rem;
+}
+
+
+

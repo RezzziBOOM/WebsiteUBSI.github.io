@@ -1,0 +1,750 @@
+:root{
+    --bg-color:#1f242d;
+    --main-color:#75C3EF;
+    --text-color:#fff;
+    
+    
+    
+}
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+   
+}
+/* Nama univ */
+.nama-univ{
+    font-family: 'Bebas Neue',sans-serif;
+    color: white;
+}
+.multiple-text{
+    font-family: 'Bebas Neue',sans-serif;
+}
+
+/* Navbar */
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+
+.headher {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color:rgba(17, 34, 80, 0.452);
+    border-bottom: 1px solid var(--second-bg-color);
+}
+
+
+
+
+.headher img{
+    width: 12rem;
+    height: auto;
+}
+
+.custom-navbar a{
+    font-size: 1.7rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+}
+
+
+.custom-navbar a:hover,
+.custom-navbar a.active
+{
+    color: var(--main-color);
+}
+
+
+/* Icon */
+#menu-icon{
+    font-size: 3.6rem;
+    color: var(--text-color);
+    display: none;
+}
+
+#close-icon{
+    font-size: 3.6rem;
+    color: var(--text-color);
+    display: none;
+
+}/* CSS untuk animasi fade */
+.fade-out {
+    animation: fadeOut 0.2s;
+}
+
+.fade-in {
+    animation: fadeIn 0.2s;
+}
+
+@keyframes fadeOut {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+
+
+
+/* icon Selesai */
+
+/* Navbar Selesai */
+
+
+/* Span */
+span{
+    color: var(--main-color);
+}
+/* Span Selesai */
+
+
+/* Setelah Navbar */
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../img/snapedit_1699281179108.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.home-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.home-content h1{
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+    text-align: center
+    
+
+}
+
+ 
+
+.home-content p{
+    font-size: 3rem;
+    color: var(--text-color);
+    text-align: center;
+}
+
+
+/* setelah navbar selesai */
+
+
+/* Social Media Mulai */
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
+}
+
+
+.social-media a:hover{
+    background: var(--main-color);
+
+    box-shadow: 0 0 1rem var(--main-color);
+
+}
+
+
+
+/* Social Media Kelar */
+
+
+
+/* Button */
+
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    box-shadow: 0 0 1rem var(--main-color);
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+
+    
+}
+
+
+.btn:hover{
+    box-shadow:none ;
+}
+
+.custom-btn2{
+    color: #fff;
+}
+/* Button Selesai */
+
+/* FAKULTAS */
+
+.fakultas{
+    width: 80%;
+    margin: auto; 
+    text-align: center;
+    padding-top: 15rem;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+p{
+    color: #777;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 2rem;
+    padding: 1rem;
+}
+
+.tata-letak{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fakultas-bsi{
+    flex-basis: 31%;
+    background:var(--main-color);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 1.25rem 0.75rem;
+    box-sizing: border-box;
+}
+
+.fakultas-bsi:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.966);
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 0.500rem 0;
+}
+
+
+
+/* Fakultas Lanjutan */
+.fakultas-2{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5rem;
+
+}
+
+
+.fakultas-2 h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.fakultas-2 .p1{
+    color: #777;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 2rem;
+    padding: 1rem;
+}
+
+.fakultas-2 p{
+    font-size: 1.5rem;
+    color: #777;
+}
+
+
+.fakultas-2 .tata-letak{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fakultas-2  .fakultas-bsi{
+    flex-basis: 31%;
+    background: var(--main-color);
+    border-bottom: 5%;
+    padding: 1.25rem 0.75rem;
+    box-sizing: border-box;
+    flex-basis: 31%;
+}
+
+.fakultas-2 .fakultas-bsi img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+/* Kampus */
+
+.kampus {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5rem; 
+    
+}
+.kampus-bsi{
+    flex-basis:30%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Menerapkan transisi yang halus */
+    cursor: pointer; /* Menambahkan indikator cursor pointer */
+    
+}
+
+.kampus-bsi img{
+    width: 100%;
+    height: 300px; 
+    border-radius: 2rem;
+    outline: 5px solid var(--main-color); /* Outline default pada gambar */
+    transition: outline 0.5s ease; /* Transisi untuk outline */
+}
+.kampus-bsi:hover {
+    transform: scale(1.8); /* Membuat elemen sedikit lebih besar */
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.966);
+}
+
+.kampus-bsi:hover img {
+    outline: none; /* Menghilangkan outline saat hover */
+}
+
+/* Kampus Selesai */
+
+
+/* FASILITAS */
+
+.fasilitas{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.fasilitas-posisi{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.fasilitas-bsi{
+    flex-basis: 50%;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+.fasilitas-bsi img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    
+}
+.fasilitas-bsi img:hover {
+    transform: scale(1.05); /* Efek zoom ringan */
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.966); /* Bayangan untuk kedalaman */
+}
+
+/* FASILITAS SELESAI */
+
+
+
+
+/* Footer */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: rgb(1,1, 0.8);
+    border-bottom: 1px solid var(--bg-color) ;
+
+}
+
+.footer-text p{
+    font-size: 2rem;
+}
+
+.footer-iconTop a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: var(--main-color);
+    border-radius: .8rem;
+    transition: .5s ease;
+}
+
+.footer-iconTop a:hover{
+    box-shadow: 0 0 1rem var(--main-color);
+}
+.footer-iconTop a i {
+    font-size: 2.4rem;
+    color: var(--bg-color);
+}
+/* Footer SELESAI */
+
+
+
+/* GALLERY */
+
+
+
+
+.gallery h1{
+    font-size: 5rem;
+    text-align: center;
+}
+
+.gallery{
+    margin: 100px;
+    text-align: center;
+}
+
+.gallery-bsi {
+        flex-basis: 30%;
+        border-radius: 10px;
+        
+        padding: 10px ;
+        padding-left: 30px;
+        
+    }
+    
+    
+    
+
+
+.gallery-bsi img{
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+    margin: 0;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.gallery-bsi p{
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.gallery-bsi img:hover {
+    transform: scale(2);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.966); /* Bayangan untuk kedalaman */
+}
+
+
+
+
+
+/* HUBUNGI */
+
+.hubungi{
+    text-align: center;
+    margin: 100px auto;
+    padding: 100px 0;
+    width: 60%;
+    background-image: url(../img/banner6.jpg);
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.hubungi h1{
+    color: rgb(255, 238, 238);
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+/* HUBUNGI SELESAI */
+
+
+/* Maps */
+
+
+
+
+.lokasi h1 {
+    text-align: center;
+    margin: 50px;
+
+}
+
+
+
+
+.lokasi iframe{
+    width: 100%;
+    border-radius: 10px;
+    flex-basis: 100%;
+}
+
+.lokasi .campus-image{
+    max-width: 70%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    flex-basis: 100%;
+}
+
+
+.lokasi .campus-image:hover {
+    transform: scale(1.05); /* Slightly increase the size on hover */
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.966); /* Shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for the hover effect */
+}
+
+/* Contact */
+
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    
+    
+}
+
+.contact p {
+    text-align: center;
+    
+    
+}
+
+
+.contact form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+
+.contact form .input-box input,
+.contact form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--main-color);
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+
+.contact form .input-box input{
+    width: 49%;
+}
+
+.contact form textarea {
+    resize: none;
+   
+}
+
+.contact form.btn{
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+
+
+/* BREAKPOINTS */
+@media (max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+    .kampus-bsi{
+        flex-basis: 45%;
+    }
+    .kampus-bsi img{
+        height: 250px;
+    }
+}
+@media (max-width:991px){
+    .headher{
+        padding: 2rem 3%;
+    }
+    section{
+        padding: 10rem 3% 2rem;
+
+    }
+    .kampus-bsi{
+        flex-basis: 60%;
+    }
+}
+
+@media (max-width:768px){
+    #menu-icon{
+        display: block;
+    }
+    /* Navbar */
+
+    .custom-navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: rgba(17, 34, 80, 0.452);
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0.5rem 1rem rgba(0, 0, 0, .2);
+        display: none;
+    }
+
+    .custom-navbar.active{
+        display: block;
+    }
+
+    .custom-navbar a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+    /* Navbar Selesai */
+
+    /* Fakultas */
+    .fakultas-bsi{
+        display: block;
+        flex-basis: 100%;
+
+    }
+
+    .h1{
+        font-size: 2rem;
+    }
+    .p{
+        font-size: 1rem;
+    }
+    /* fakultas selesai */
+
+
+    /* Kampus */
+    .kampus-bsi{
+        
+        flex-basis: 100%;
+    }
+
+    .kampus-bsi img{
+        height: 200px;
+    }
+    .h1{
+        font-size: 2rem;
+    }
+    .p{
+        font-size: 1rem;
+    }
+
+    /* Kampus Selesai */
+
+
+
+    /* Fasilitas Mulai */
+    .fasilitas-bsi{
+        flex-basis: 100%;
+    }
+    .fasilitas-bsi img{
+        height: 200px;
+    }
+    .h3{
+        font-size: 2rem;
+
+    }
+    .p{
+        font-size: 1rem;
+    }
+        
+    
+    /* Fasilitas selesai */
+
+
+    .footer{
+        flex-direction: column-reverse;
+    }
+
+    .footer p{
+        text-align: center;
+        margin-top: 2rem;
+
+    }
+
+    /*   Galeryy */
+    .gallery-bsi {
+        width: 10%;
+        flex-basis: 50%; 
+    }
+
+    .gallery h1{
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .gallery-bsi p{
+        font-size: 1.5rem;
+        text-align: center; 
+    }
+
+
+    /* Lokasi Kampus */
+
+    .lokasi .campus-image, .lokasi iframe {
+        flex-basis: 100%;
+    }
+    
+
+
+
+    
+}
+
